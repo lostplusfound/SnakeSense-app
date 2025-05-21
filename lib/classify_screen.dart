@@ -42,7 +42,7 @@ class _ClassifyScreenState extends State<ClassifyScreen> {
           Text('Or'),
           OutlinedButton(
             onPressed: () async {
-              final XFile? image = await _pickImage(true);
+              final XFile? image = await _pickImage(false);
               if (image != null) {
                 Navigator.push(
                   context,
