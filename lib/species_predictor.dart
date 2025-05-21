@@ -9,7 +9,7 @@ class SpeciesPredictor {
 
   static Future<void> _loadSpecies() async {
     final csvString = await rootBundle.loadString('assets/csv/species.csv');
-    List<List<dynamic>> rows = const CsvToListConverter(textDelimiter: null, eol: '\n').convert(csvString);
+    List<List<dynamic>> rows = const CsvToListConverter(textDelimiter: null, eol: '\n').convert(csvString).sublist(1);
     for (List<dynamic> row in rows) {
       _speciesList.add(Species.fromCsvRow(row));
     }
@@ -24,6 +24,6 @@ class SpeciesPredictor {
     for (int i = 0; i < preds.length; i++) {
       if (preds[i] > preds[predictedIndex]) predictedIndex = i;
     }
-    return _speciesList[predictedIndex + 1];
+    return _speciesList[predictedIndex];
   }
 }
