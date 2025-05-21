@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   cross_file: ^0.3.4+2
+  csv: ^6.0.0
   flutter:
     sdk: flutter
   flutter_onnxruntime: ^1.4.1
