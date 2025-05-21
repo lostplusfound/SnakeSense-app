@@ -1,0 +1,136 @@
+index,class_id,binomial_name,common_name,country,continent,genus,family,snake_sub_family,poisonous
+0,110,Carphophis amoenus,Common Worm Snake,United States of America,North America,Carphophis,Colubridae,Carphophis amoenus,0
+1,111,Carphophis vermis,Western Worm Snake,United States of America,North America,Carphophis,Colubridae,Carphophis vermis,0
+2,113,Causus rhombeatus,Rhombic Night Adder,South Africa,Africa,Causus,Viperidae,Causus rhombeatus,1
+3,114,Cemophora coccinea,Scarlet Snake,United States of America,North America,Cemophora,Colubridae,Cemophora coccinea,0
+4,122,Charina bottae,Rubber Boa,United States of America,North America,Charina,Boidae,Charina bottae,0
+5,135,Chrysopelea ornata,Ornate Flying Snake,unknown,unknown,Chrysopelea,Colubridae,Chrysopelea ornata,0
+6,140,Clonophis kirtlandii,Kirtland's Snake,United States of America,North America,Clonophis,Colubridae,Clonophis kirtlandii,0
+7,155,Contia tenuis,Sharp-tailed Snake,United States of America,North America,Contia,Colubridae,Contia tenuis,0
+8,158,Corallus caninus,Emerald Tree Boa,unknown,unknown,Corallus,Boidae,Corallus caninus,0
+9,159,Corallus hortulanus,Amazon Tree Boa,Ecuador,South America,Corallus,Boidae,Corallus hortulanus,0
+10,162,Coronella girondica,Southern Smooth Snake,Spain,Europe,Coronella,Colubridae,Coronella girondica,0
+11,163,Crotalus adamanteus,Eastern Diamondback Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus adamanteus,1
+12,165,Crotalus atrox,Western Diamondback Rattlesnake,Mexico,North America,Crotalus,Viperidae,Crotalus atrox,1
+13,168,Crotalus cerastes,Sidewinder,United States of America,North America,Crotalus,Viperidae,Crotalus cerastes,1
+14,169,Crotalus cerberus,Arizona Black Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus cerberus,1
+15,175,Crotalus lepidus,Rock Rattlesnake,Mexico,North America,Crotalus,Viperidae,Crotalus lepidus,1
+16,177,Crotalus molossus,Black-tailed Rattlesnake,unknown,unknown,Crotalus,Viperidae,Crotalus molossus,1
+17,18,Agkistrodon contortrix,Copperhead,United States of America,North America,Agkistrodon,Viperidae,Agkistrodon contortrix,1
+18,180,Crotalus ornatus,Ornate Black-tailed Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus ornatus,1
+19,185,Crotalus ruber,Red Diamond Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus ruber,1
+20,186,Crotalus scutulatus,Mojave Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus scutulatus,1
+21,188,Crotalus stephensi,Panamint Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus stephensi,1
+22,189,Crotalus tigris,Tiger Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus tigris,1
+23,191,Crotalus triseriatus,Mexican Dusky Rattlesnake,Mexico,North America,Crotalus,Viperidae,Crotalus triseriatus,1
+24,193,Crotalus viridis,Prairie Rattlesnake,United States of America,North America,Crotalus,Viperidae,Crotalus viridis,1
+25,195,Crotaphopeltis hotamboeia,Red-lipped Snake,South Africa,Africa,Crotaphopeltis,Colubridae,Crotaphopeltis hotamboeia,0
+26,20,Agkistrodon piscivorus,Cottonmouth,United States of America,North America,Agkistrodon,Viperidae,Agkistrodon piscivorus,1
+27,203,Daboia russelii,Russell's Viper,India,Asia,Daboia,Viperidae,Daboia russelii,1
+28,215,Dendrelaphis pictus,Painted Bronzeback,Indonesia,Asia,Dendrelaphis,Colubridae,Dendrelaphis pictus,0
+29,216,Dendrelaphis punctulatus,Green Tree Snake,Australia,Australia,Dendrelaphis,Colubridae,Dendrelaphis punctulatus,0
+30,220,Dendroaspis polylepis,Black Mamba,South Africa,Africa,Dendroaspis,Elapidae,Dendroaspis polylepis,1
+31,226,Diadophis punctatus,Ring-necked Snake,United States of America,North America,Diadophis,Colubridae,Diadophis punctatus,0
+32,238,Drymarchon couperi,Eastern Indigo Snake,unknown,unknown,Drymarchon,Colubridae,Drymarchon couperi,0
+33,25,Ahaetulla nasuta,Long-nosed Whip Snake,India,Asia,Ahaetulla,Colubridae,Ahaetulla nasuta,0
+34,255,Elaphe dione,Dione's Rat Snake,unknown,unknown,Elaphe,Colubridae,Elaphe dione,0
+35,26,Ahaetulla prasina,Oriental Whip Snake,Vietnam,Asia,Ahaetulla,Colubridae,Ahaetulla prasina,0
+36,263,Epicrates cenchria,Rainbow Boa,Brazil,South America,Epicrates,Boidae,Epicrates cenchria,0
+37,280,Eunectes murinus,Green Anaconda,Ecuador,South America,Eunectes,Boidae,Eunectes murinus,0
+38,284,Farancia abacura,Mud Snake,United States of America,North America,Farancia,Colubridae,Farancia abacura,0
+39,302,Gonyosoma oxycephalum,Red-tailed Green Rat Snake,unknown,unknown,Gonyosoma,Colubridae,Gonyosoma oxycephalum,0
+40,315,Hemorrhois hippocrepis,Horseshoe Whip Snake,Algeria,Africa,Hemorrhois,Colubridae,Hemorrhois hippocrepis,0
+41,319,Heterodon nasicus,Western Hognose Snake,United States of America,North America,Heterodon,Colubridae,Heterodon nasicus,0
+42,321,Heterodon simus,Eastern Hognose Snake,United States of America,North America,Heterodon,Colubridae,Heterodon simus,0
+43,323,Hierophis viridiflavus,Green Whip Snake,unknown,unknown,Hierophis,Colubridae,Hierophis viridiflavus,0
+44,335,Hypsiglena torquata,Night Snake,unknown,unknown,Hypsiglena,Colubridae,Hypsiglena torquata,0
+45,338,Imantodes cenchoa,Blunt-headed Tree Snake,Ecuador,South America,Imantodes,Colubridae,Imantodes cenchoa,0
+46,345,Lampropeltis alterna,Gray-banded Kingsnake,United States of America,North America,Lampropeltis,Colubridae,Lampropeltis alterna,0
+47,348,Lampropeltis calligaster,Prairie Kingsnake,United States of America,North America,Lampropeltis,Colubridae,Lampropeltis calligaster,0
+48,352,Lampropeltis getula,Eastern Kingsnake,United States of America,North America,Lampropeltis,Colubridae,Lampropeltis getula,0
+49,360,Lampropeltis pyromelana,Sonoran Mountain Kingsnake,unknown,unknown,Lampropeltis,Colubridae,Lampropeltis pyromelana,0
+50,363,Lampropeltis triangulum,Milk Snake,United States of America,North America,Lampropeltis,Colubridae,Lampropeltis triangulum,0
+51,364,Lampropeltis zonata,California Mountain Kingsnake,unknown,unknown,Lampropeltis,Colubridae,Lampropeltis zonata,0
+52,368,Laticauda colubrina,Yellow-lipped Sea Krait,unknown,unknown,Laticauda,Elapidae,Laticauda colubrina,1
+53,373,Leptodeira annulata,Banded Cat-eyed Snake,Ecuador,South America,Leptodeira,Colubridae,Leptodeira annulata,0
+54,381,Leptophis ahaetulla,Parrot Snake,Brazil,South America,Leptophis,Colubridae,Leptophis ahaetulla,0
+55,383,Leptophis diplotropis,Pacific Coast Parrot Snake,unknown,unknown,Leptophis,Colubridae,Leptophis diplotropis,0
+56,384,Leptophis mexicanus,Green Parrot Snake,Mexico,North America,Leptophis,Colubridae,Leptophis mexicanus,0
+57,39,Arizona elegans,Glossy Snake,United States of America,North America,Arizona,Colubridae,Arizona elegans,0
+58,396,Lycodon capucinus,Common Wolf Snake,Hong Kong S.A.R.,Asia,Lycodon,Colubridae,Lycodon capucinus,0
+59,41,Aspidites melanocephalus,Black-headed Python,Australia,Australia,Aspidites,Pythonidae,Aspidites melanocephalus,0
+60,422,Malpolon monspessulanus,Montpellier Snake,Spain,Europe,Malpolon,Lamprophiidae,Malpolon monspessulanus,1
+61,424,Masticophis bilineatus,Sonoran Whipsnake,United States of America,North America,Masticophis,Colubridae,Masticophis bilineatus,0
+62,427,Masticophis lateralis,California Whipsnake,United States of America,North America,Masticophis,Colubridae,Masticophis lateralis,0
+63,429,Masticophis schotti,Schott's Whipsnake,Mexico,North America,Masticophis,Colubridae,Masticophis schotti,0
+64,430,Masticophis taeniatus,Striped Whipsnake,United States of America,North America,Masticophis,Colubridae,Masticophis taeniatus,0
+65,441,Micrurus fulvius,Eastern Coral Snake,United States of America,North America,Micrurus,Elapidae,Micrurus fulvius,1
+66,448,Micrurus tener,Texas Coral Snake,Mexico,North America,Micrurus,Elapidae,Micrurus tener,1
+67,453,Morelia spilota,Carpet Python,unknown,unknown,Morelia,Pythonidae,Morelia spilota,0
+68,454,Morelia viridis,Green Tree Python,unknown,unknown,Morelia,Pythonidae,Morelia viridis,0
+69,457,Naja atra,Chinese Cobra,Taiwan,Asia,Naja,Elapidae,Naja atra,1
+70,462,Naja naja,Indian Cobra,unknown,unknown,Naja,Elapidae,Naja naja,1
+71,464,Naja nivea,Cape Cobra,unknown,unknown,Naja,Elapidae,Naja nivea,1
+72,470,Natrix maura,Viperine Snake,Spain,Europe,Natrix,Colubridae,Natrix maura,0
+73,474,Nerodia cyclopion,Green Water Snake,United States of America,North America,Nerodia,Colubridae,Nerodia cyclopion,0
+74,477,Nerodia floridana,Florida Green Water Snake,United States of America,North America,Nerodia,Colubridae,Nerodia floridana,0
+75,48,Atractus crassicaudatus,Thickhead Ground Snake,Colombia,South America,Atractus,Colubridae,Atractus crassicaudatus,0
+76,481,Nerodia taxispilota,Brown Water Snake,United States of America,North America,Nerodia,Colubridae,Nerodia taxispilota,0
+77,485,Ninia sebae,Redbacked Coffee Snake,Costa Rica,North America,Ninia,Colubridae,Ninia sebae,0
+78,495,Opheodrys aestivus,Rough Green Snake,United States of America,North America,Opheodrys,Colubridae,Opheodrys aestivus,0
+79,497,Ophiophagus hannah,King Cobra,Indonesia,Asia,Ophiophagus,Elapidae,Ophiophagus hannah,1
+80,507,Oxybelis aeneus,Brown Vine Snake,Mexico,North America,Oxybelis,Colubridae,Oxybelis aeneus,0
+81,515,Oxyuranus scutellatus,Coastal Taipan,unknown,unknown,Oxyuranus,Elapidae,Oxyuranus scutellatus,1
+82,52,Austrelaps superbus,Lowland Copperhead,Australia,Australia,Austrelaps,Elapidae,Austrelaps superbus,1
+83,54,Bitis arietans,Puff Adder,unknown,unknown,Bitis,Viperidae,Bitis arietans,1
+84,544,Phyllorhynchus decurtatus,Spotted Leaf-nosed Snake,United States of America,North America,Phyllorhynchus,Colubridae,Phyllorhynchus decurtatus,0
+85,545,Pituophis catenifer,Gopher Snake,United States of America,North America,Pituophis,Colubridae,Pituophis catenifer,0
+86,546,Pituophis deppei,Deppe's Pine Snake,Mexico,North America,Pituophis,Colubridae,Pituophis deppei,0
+87,560,Protobothrops mucrosquamatus,Brown Spotted Pit Viper,Taiwan,Asia,Protobothrops,Viperidae,Protobothrops mucrosquamatus,1
+88,562,Psammodynastes pulverulentus,Mock Viper,Philippines,Asia,Psammodynastes,Lamprophiidae,Psammodynastes pulverulentus,0
+89,57,Bitis gabonica,Gabon Viper,United States of America,North America,Bitis,Viperidae,Bitis gabonica,1
+90,575,Pseudaspis cana,Cape Wolf Snake,South Africa,Africa,Pseudaspis,Lamprophiidae,Pseudaspis cana,0
+91,576,Pseudechis australis,King Brown Snake,unknown,unknown,Pseudechis,Elapidae,Pseudechis australis,1
+92,578,Pseudechis porphyriacus,Red-bellied Black Snake,unknown,unknown,Pseudechis,Elapidae,Pseudechis porphyriacus,1
+93,590,Pseudonaja textilis,Eastern Brown Snake,unknown,unknown,Pseudonaja,Elapidae,Pseudonaja textilis,1
+94,60,Boa constrictor,Boa Constrictor,Brazil,South America,Boa,Boidae,Boa constrictor,0
+95,603,Python molurus,Indian Python,unknown,unknown,Python,Pythonidae,Python molurus,0
+96,605,Python regius,Ball Python,unknown,unknown,Python,Pythonidae,Python regius,0
+97,609,Regina septemvittata,Queen Snake,United States of America,North America,Regina,Colubridae,Regina septemvittata,0
+98,616,Rhabdophis subminiatus,Red-necked Keelback,Vietnam,Asia,Rhabdophis,Colubridae,Rhabdophis subminiatus,1
+99,617,Rhabdophis tigrinus,Tiger Keelback,Japan,Asia,Rhabdophis,Colubridae,Rhabdophis tigrinus,1
+100,619,Rhadinaea flavilata,Pine Woods Snake,United States of America,North America,Rhadinaea,Colubridae,Rhadinaea flavilata,0
+101,623,Rhinocheilus lecontei,Long-nosed Snake,United States of America,North America,Rhinocheilus,Colubridae,Rhinocheilus lecontei,0
+102,628,Salvadora grahamiae,Mountain Patch-nosed Snake,United States of America,North America,Salvadora,Colubridae,Salvadora grahamiae,0
+103,629,Salvadora hexalepis,Western Patch-nosed Snake,United States of America,North America,Salvadora,Colubridae,Salvadora hexalepis,0
+104,634,Senticolis triaspis,Green Rat Snake,Mexico,South America,Senticolis,Colubridae,Senticolis triaspis,0
+105,65,Bogertophis subocularis,Trans-Pecos Rat Snake,unknown,unknown,Bogertophis,Colubridae,Bogertophis subocularis,0
+106,651,Sistrurus catenatus,Massasauga,Canada,North America,Sistrurus,Viperidae,Sistrurus catenatus,1
+107,652,Sistrurus miliarius,Pygmy Rattlesnake,unknown,unknown,Sistrurus,Viperidae,Sistrurus miliarius,1
+108,656,Spilotes pullatus,Chicken Snake,unknown,unknown,Spilotes,Colubridae,Spilotes pullatus,0
+109,672,Tantilla coronata,Southeastern Crowned Snake,United States of America,North America,Tantilla,Colubridae,Tantilla coronata,0
+110,674,Tantilla gracilis,Flathead Snake,United States of America,North America,Tantilla,Colubridae,Tantilla gracilis,0
+111,675,Tantilla hobartsmithi,Southwestern Blackhead Snake,Mexico,North America,Tantilla,Colubridae,Tantilla hobartsmithi,0
+112,678,Tantilla planiceps,Western Blackhead Snake,United States of America,North America,Tantilla,Colubridae,Tantilla planiceps,0
+113,686,Thamnophis atratus,Aquatic Garter Snake,unknown,unknown,Thamnophis,Colubridae,Thamnophis atratus,0
+114,690,Thamnophis couchii,Western Aquatic Garter Snake,United States of America,North America,Thamnophis,Colubridae,Thamnophis couchii,0
+115,691,Thamnophis cyrtopsis,Black-necked Garter Snake,United States of America,North America,Thamnophis,Colubridae,Thamnophis cyrtopsis,0
+116,696,Thamnophis marcianus,Checkered Garter Snake,United States of America,North America,Thamnophis,Colubridae,Thamnophis marcianus,0
+117,698,Thamnophis ordinoides,Northwestern Garter Snake,United States of America,North America,Thamnophis,Colubridae,Thamnophis ordinoides,0
+118,699,Thamnophis proximus,Western Ribbon Snake,United States of America,North America,Thamnophis,Colubridae,Thamnophis proximus,0
+119,701,Thamnophis radix,Plains Garter Snake,United States of America,North America,Thamnophis,Colubridae,Thamnophis radix,0
+120,71,Boiga irregularis,Brown Tree Snake,unknown,unknown,Boiga,Colubridae,Boiga irregularis,1
+121,725,Trimeresurus stejnegeri,Chinese Green Tree Viper,Taiwan,Asia,Trimeresurus,Viperidae,Trimeresurus stejnegeri,1
+122,73,Boiga kraepelini,Kraepelin's Cat Snake,Taiwan,Asia,Boiga,Colubridae,Boiga kraepelini,0
+123,738,Tropidoclonion lineatum,Lined Snake,United States of America,North America,Tropidoclonion,Colubridae,Tropidoclonion lineatum,0
+124,740,Tropidolaemus subannulatus,Temple Viper,unknown,unknown,Tropidolaemus,Viperidae,Tropidolaemus subannulatus,1
+125,741,Tropidolaemus wagleri,Wagler's Pit Viper,unknown,unknown,Tropidolaemus,Viperidae,Tropidolaemus wagleri,1
+126,746,Vipera ammodytes,Nose-horned Viper,unknown,unknown,Vipera,Viperidae,Vipera ammodytes,1
+127,747,Vipera aspis,Asp Viper,Italy,Europe,Vipera,Viperidae,Vipera aspis,1
+128,751,Vipera seoanei,Seoane's Viper,unknown,unknown,Vipera,Viperidae,Vipera seoanei,1
+129,755,Virginia valeriae,Smooth Earth Snake,United States of America,North America,Virginia,Colubridae,Virginia valeriae,0
+130,758,Xenochrophis piscator,Checkered Keelback,Taiwan,Asia,Xenochrophis,Colubridae,Xenochrophis piscator,0
+131,83,Bothriechis schlegelii,Eyelash Viper,Colombia,South America,Bothriechis,Viperidae,Bothriechis schlegelii,1
+132,87,Bothrops asper,Fer-de-Lance,Costa Rica,North America,Bothrops,Viperidae,Bothrops asper,1
+133,88,Bothrops atrox,Common Lancehead,Trinidad and Tobago,South America,Bothrops,Viperidae,Bothrops atrox,1
+134,99,Bungarus multicinctus,Many-banded Krait,Taiwan,Asia,Bungarus,Elapidae,Bungarus multicinctus,1
