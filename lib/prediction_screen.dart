@@ -3,6 +3,7 @@ import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:is_it_poisonous/onnx_predictor.dart';
+import 'package:is_it_poisonous/prediction_card.dart';
 import 'package:is_it_poisonous/species.dart';
 
 class PredictionScreen extends StatefulWidget {
@@ -33,7 +34,10 @@ class _PredictionScreenState extends State<PredictionScreen> {
 
   static Future<void> _loadSpecies() async {
     final csvString = await rootBundle.loadString('assets/csv/species.csv');
-    List<List<dynamic>> rows = const CsvToListConverter(textDelimiter: null, eol: '\n').convert(csvString).sublist(1);
+    List<List<dynamic>> rows = const CsvToListConverter(
+      textDelimiter: null,
+      eol: '\n',
+    ).convert(csvString).sublist(1);
     for (List<dynamic> row in rows) {
       _speciesList.add(Species.fromCsvRow(row));
     }
@@ -55,20 +59,25 @@ class _PredictionScreenState extends State<PredictionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Species Predictor')),
-      body: Center(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            _imageBytes != null
-                ? Image.memory(
-                  _imageBytes!,
-                  height: MediaQuery.of(context).size.height / 2,
-                )
-                : CircularProgressIndicator(),
-            _predictedSpecies != null
-                ? Text(_predictedSpecies!.commonName)
-                : CircularProgressIndicator(),
-          ],
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              _imageBytes != null && _predictedSpecies != null
+                  ? PredictionCard(_imageBytes!, _predictedSpecies!)
+                  : Column(
+                    spacing: 8.0,
+                    children: [
+                      Text(
+                        'Generating prediction...',
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+                      LinearProgressIndicator(),
+                    ],
+                  ),
+            ],
+          ),
         ),
       ),
     );

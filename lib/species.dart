@@ -28,7 +28,7 @@ class Species {
       genus: row[6],
       family: row[7],
       snakeSubFamily: row[8],
-      poisonous: row[9] == '1',
+      poisonous: row[9] == 1,
     );
   }
 }
