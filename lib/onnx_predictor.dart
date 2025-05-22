@@ -34,13 +34,19 @@ class OnnxPredictor {
     );
     final shape = [1, 3, 224, 224];
     final img.Image? image = await img.decodeImageFile(imageFile.path);
+    final inputTensor = await OrtValue.fromList(_preprocess(image!), shape);
     final inputName = session.inputNames.first;
     final outputName = session.outputNames.first;
     final inputs = {
-      inputName : await OrtValue.fromList(_preprocess(image!), shape),
+      inputName : inputTensor,
     };
     final outputs = await session.run(inputs);
     final preds = await outputs[outputName]?.asList();
+    await inputTensor.dispose();
+    for(final tensor in outputs.values) {
+      await tensor.dispose();
+    }
+    await session.close();
     return preds?[0] ?? [];
   }
 }
