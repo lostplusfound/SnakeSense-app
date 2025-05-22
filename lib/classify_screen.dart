@@ -28,7 +28,7 @@ class _ClassifyScreenState extends State<ClassifyScreen> {
           OutlinedButton(
             onPressed: () async {
               final XFile? image = await _pickImage(true);
-              if (image != null) {
+              if (image != null && context.mounted) {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -43,7 +43,7 @@ class _ClassifyScreenState extends State<ClassifyScreen> {
           OutlinedButton(
             onPressed: () async {
               final XFile? image = await _pickImage(false);
-              if (image != null) {
+              if (image != null && context.mounted) {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
