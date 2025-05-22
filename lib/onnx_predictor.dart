@@ -30,15 +30,17 @@ class OnnxPredictor {
   static Future<List> predict(XFile imageFile) async {
     final ort = OnnxRuntime();
     final session = await ort.createSessionFromAsset(
-      'assets/models/model.onnx',
+      'assets/models/model.mp3',
     );
     final shape = [1, 3, 224, 224];
     final img.Image? image = await img.decodeImageFile(imageFile.path);
+    final inputName = session.inputNames.first;
+    final outputName = session.outputNames.first;
     final inputs = {
-      'inputs': await OrtValue.fromList(_preprocess(image!), shape),
+      inputName : await OrtValue.fromList(_preprocess(image!), shape),
     };
     final outputs = await session.run(inputs);
-    final preds = await outputs['output']?.asList();
+    final preds = await outputs[outputName]?.asList();
     return preds?[0] ?? [];
   }
 }
