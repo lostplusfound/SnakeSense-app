@@ -1,6 +1,5 @@
 import 'dart:typed_data';
 import 'package:image/image.dart' as img;
-import 'package:cross_file/cross_file.dart';
 import 'package:flutter_onnxruntime/flutter_onnxruntime.dart';
 
 class OnnxPredictor {
