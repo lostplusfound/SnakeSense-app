@@ -7,9 +7,9 @@ import 'package:is_it_poisonous/prediction_card.dart';
 import 'package:is_it_poisonous/species.dart';
 
 class PredictionScreen extends StatefulWidget {
-  final XFile _image;
+  final XFile _imageFile;
 
-  const PredictionScreen(this._image, {super.key});
+  const PredictionScreen(this._imageFile, {super.key});
 
   @override
   State<PredictionScreen> createState() => _PredictionScreenState();
@@ -23,16 +23,10 @@ class _PredictionScreenState extends State<PredictionScreen> {
   @override
   void initState() {
     super.initState();
-    _loadImageAndPredict();
+    _getPrediction(widget._imageFile);
   }
 
-  void _loadImageAndPredict() async {
-    _imageBytes = await widget._image.readAsBytes();
-    _predictedSpecies = await getPrediction(widget._image);
-    setState(() {});
-  }
-
-  static Future<void> _loadSpecies() async {
+  Future<void> _loadSpecies() async {
     final csvString = await rootBundle.loadString('assets/csv/species.csv');
     List<List<dynamic>> rows = const CsvToListConverter(
       textDelimiter: null,
@@ -41,18 +35,21 @@ class _PredictionScreenState extends State<PredictionScreen> {
     for (List<dynamic> row in rows) {
       _speciesList.add(Species.fromCsvRow(row));
     }
+    setState(() {});
   }
 
-  static Future<Species> getPrediction(XFile image) async {
+  Future<void> _getPrediction(XFile image) async {
     if (_speciesList.isEmpty) {
       await _loadSpecies();
     }
-    List preds = await OnnxPredictor.predict(image);
+    _imageBytes = await image.readAsBytes();
+    List preds = await OnnxPredictor.predict(_imageBytes!);
     int predictedIndex = 0;
     for (int i = 0; i < preds.length; i++) {
       if (preds[i] > preds[predictedIndex]) predictedIndex = i;
     }
-    return _speciesList[predictedIndex];
+    _predictedSpecies = _speciesList[predictedIndex];
+    setState(() {});
   }
 
   @override

@@ -27,13 +27,13 @@ class OnnxPredictor {
     return input;
   }
 
-  static Future<List> predict(XFile imageFile) async {
+  static Future<List> predict(Uint8List imageBytes) async {
     final ort = OnnxRuntime();
     final session = await ort.createSessionFromAsset(
       'assets/models/model.mp3',
     );
     final shape = [1, 3, 224, 224];
-    final img.Image? image = await img.decodeImageFile(imageFile.path);
+    final img.Image? image = img.decodeImage(imageBytes);
     final inputTensor = await OrtValue.fromList(_preprocess(image!), shape);
     final inputName = session.inputNames.first;
     final outputName = session.outputNames.first;
