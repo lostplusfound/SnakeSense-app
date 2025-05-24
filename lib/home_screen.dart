@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:is_it_poisonous/classify_screen.dart';
-import 'package:is_it_poisonous/history_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -11,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
-  final List<Widget> destinations = [ClassifyScreen(), HistoryScreen()];
+  final List<Widget> destinations = [ClassifyScreen(),];
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,6 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         destinations: [
           NavigationDestination(icon: Icon(Icons.search), label: 'Classify'),
-          NavigationDestination(icon: Icon(Icons.update), label: 'History'),
         ],
       ),
     );
