@@ -23,7 +23,7 @@
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/snakesense-app.git
+   git clone https://github.com/lostplusfound/SnakeSense-app
    cd snakesense-app
    ```
 
