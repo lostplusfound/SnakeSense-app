@@ -1,4 +1,6 @@
 # 🐍 SnakeSense App
+<img height="400" alt="Screenshot_20250806-184919" src="https://github.com/user-attachments/assets/71a13f1f-6b04-4bc6-9be5-e63479936a8b" />
+<img height="400" alt="Screenshot_20250806-184914" src="https://github.com/user-attachments/assets/946ff6fa-bc5e-49c8-8bf8-c4f0ff1f83a2" />
 
 **SnakeSense App** is a simple Flutter application that leverages the [SnakeSense](https://github.com/lostplusfound/SnakeSense/) machine learning model to classify snake species and identify whether a snake is venomous or not. Users can either select an image from their device or take a new photo, and the app performs inference to display species information in a user-friendly way.
 
