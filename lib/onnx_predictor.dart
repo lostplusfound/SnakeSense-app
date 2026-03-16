@@ -29,7 +29,7 @@ class OnnxPredictor {
   static Future<List> predict(Uint8List imageBytes) async {
     final ort = OnnxRuntime();
     final session = await ort.createSessionFromAsset(
-      'assets/models/model.mp3',
+      'assets/models/model.onnx',
     );
     final shape = [1, 3, 224, 224];
     final img.Image? image = img.decodeImage(imageBytes);
