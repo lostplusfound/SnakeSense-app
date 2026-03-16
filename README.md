@@ -21,10 +21,10 @@
 |------------|---------------------|
 | **Android** | ✅ Fully supported   |
 | **Desktop** | ✅ Supported         |
-| **Web**     | ❌ Not supported (due to ONNX runtime issues) |
+| **Web**     | ✅ Supported         |
 | **iOS**     | ⚠️ Untested          |
 
-> ℹ️ ONNX Runtime currently does not support Flutter web reliably, so SnakeSense App is not functional on web at this time. iOS has not yet been tested and may require additional configuration.
+> ℹ️ iOS has not yet been tested and may require additional configuration.
 
 ---
 
