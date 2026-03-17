@@ -26,6 +26,12 @@
 
 > ℹ️ iOS has not yet been tested and may require additional configuration.
 
+## 🌐 Live Web App
+
+The production web app is available at:
+
+https://snakesense.web.app
+
 ---
 
 ## 🚀 Getting Started
