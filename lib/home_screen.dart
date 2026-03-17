@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:is_it_poisonous/classify_screen.dart';
+import 'package:snake_sense/classify_screen.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class HomeScreen extends StatelessWidget {

@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "predeploy": [
+      "flutter build web --release",
+      "bash scripts/patch_flutter_sw.sh"
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

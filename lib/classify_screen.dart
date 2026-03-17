@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:is_it_poisonous/prediction_screen.dart';
+import 'package:snake_sense/prediction_screen.dart';
 
 class ClassifyScreen extends StatefulWidget {
   const ClassifyScreen({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:is_it_poisonous/home_screen.dart';
+import 'package:snake_sense/home_screen.dart';
 
 void main() {
   runApp(const MainApp());

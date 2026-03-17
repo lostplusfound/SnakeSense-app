@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:is_it_poisonous/species.dart';
+import 'package:snake_sense/species.dart';
 
 class PredictionCard extends StatelessWidget {
   final Uint8List _imageBytes;

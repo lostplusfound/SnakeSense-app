@@ -2,9 +2,9 @@ import 'package:cross_file/cross_file.dart';
 import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:is_it_poisonous/onnx_predictor.dart';
-import 'package:is_it_poisonous/prediction_card.dart';
-import 'package:is_it_poisonous/species.dart';
+import 'package:snake_sense/onnx_predictor.dart';
+import 'package:snake_sense/prediction_card.dart';
+import 'package:snake_sense/species.dart';
 
 class PredictionScreen extends StatefulWidget {
   final XFile _imageFile;

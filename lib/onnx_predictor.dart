@@ -1,5 +1,6 @@
 import 'dart:typed_data';
 import 'package:image/image.dart' as img;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter_onnxruntime/flutter_onnxruntime.dart';
 
 class OnnxPredictor {
@@ -28,9 +29,9 @@ class OnnxPredictor {
 
   static Future<List> predict(Uint8List imageBytes) async {
     final ort = OnnxRuntime();
-    final session = await ort.createSessionFromAsset(
-      'assets/models/model.onnx',
-    );
+    final session = kIsWeb
+        ? await ort.createSession('assets/assets/models/model.onnx')
+        : await ort.createSessionFromAsset('assets/models/model.onnx');
     final shape = [1, 3, 224, 224];
     final img.Image? image = img.decodeImage(imageBytes);
     final inputTensor = await OrtValue.fromList(_preprocess(image!), shape);
